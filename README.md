@@ -65,3 +65,4 @@ window.Echo.channel('test-channel')
         console.log('RECEBIDO:', e.message);
     });
 
+php artisan tinker : event(new \App\Events\TestEvent("hello reverb 👋"));
